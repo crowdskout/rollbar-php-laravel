@@ -42,6 +42,12 @@
             }
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/crowdskout/rollbar-php"
+        }
+    ],
     "scripts": {
         "test": [
           "phpunit --coverage-clover build/logs/clover.xml",
